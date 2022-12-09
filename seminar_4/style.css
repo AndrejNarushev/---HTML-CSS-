@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Это нужно для обнуления базовых стилей */
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  background: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.center {
+  padding-left: calc(50% - 660px);
+  padding-right: calc(
+    50% - 660px
+  ); /*центрирование контента 660 px это размер контента делим пополам */
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(/seminar_4/Font/Gilroy-Bold.woff2);
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(/seminar_4/Font/Gilroy-Medium.woff2);
+}
+@font-face {
+  font-family: Gilroy-Semibold;
+  src: url(/seminar_4/Font/Gilroy-Semibold.woff2);
+}
+
+
+
+
+header {
+  margin: 14px 18px 0px 18px;
+  display: flex;
+  gap: 337px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  padding: 26 px 200px 48px 59px;
+}
+
+.navigation{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 556px;
+}
+
+.home_1{
+  font-family: "Gilroy-SemiBold";
+  font-size: 14px;
+  line-height: 16px;
+  color: #f25822;
+} 
+
+.home_2{ font-family: Gilroy-Medium;
+    font-size: 14px;
+  line-height: 16px;
+  color:#000000;
+}
+
+
+
+main {
+  margin: 21px 18px 0px 18px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.main-content{
+  margin: 15px;
+
+}
+
+.h1 {
+  margin-bottom: 17px;
+  font-family: "Gilroy-Bold";
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+}
+
+.p {
+  margin-bottom: 37px;
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+}
+
+.buttons {
+  font-family: "Gilroy-Bold";
+  margin: 16px 195px 38px 20px;
+}
+
+.btn1 {
+  padding: 15px 35px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn2 {
+  padding: 15px 35px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #aaaaaa;
+  border-radius: 50px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+
+footer {
+  margin: 53px 18px 32px 18px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
