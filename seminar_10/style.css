@@ -197,19 +197,19 @@ img {
 .catalog_women {
   width: 360px;
   height: 260px;
-  background: #000 url(/seminar_6/img/sale_1.png);
+  background: #000 url(./img/sale_1.png);
 }
 
 .catalog_men {
   width: 360px;
   height: 260px;
-  background: #000 url(/seminar_6/img/sale_2.jpg);
+  background: #000 url(./img/sale_2.jpg);
 }
 
 .catalog_kids {
   width: 360px;
   height: 260px;
-  background: #000 url(/seminar_6/img/sale_3.jpg);
+  background: #000 url(./img/sale_3.jpg);
 }
 
 .catalog_p {
@@ -234,7 +234,7 @@ img {
   margin: 30px 230px 0px 230px;
   width: 1140px;
   height: 180px;
-  background: #000 url(/seminar_6/img/sale_4.jpg);
+  background: #000 url(./img/sale_4.jpg);
   cursor: pointer;
 }
 
@@ -316,7 +316,7 @@ img {
   height: 100%;
 }
 .colp-pict:hover:after {
-  content: url(/seminar_9/img/Add\ to\ cart.png);
+  content: url(./img/Add\ to\ cart.png);
   position: absolute;
   top: 45%;
   left: 33%;
@@ -429,7 +429,7 @@ img {
 
 .footer_2 {
   display: flex;
-  background-image: url("/seminar_9/img/footer_2_1.jpg");
+  background-image: url("./img/footer_2_1.jpg");
   background-repeat: no-repeat;
   background-position: 0px 0px;
   background-size: auto 448px;
